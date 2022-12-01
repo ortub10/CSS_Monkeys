@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: silver;
+  direction: rtl;
+}
+
+.container {
+  width: 600px;
+  background: white;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.pic1 {
+  float: left;
+  margin-right: 8px;
+  border: 2px solid red;
+}
+
+.box1 {
+  width: 50%;
+  height: 150px;
+  background: yellow;
+  font-size: 1.5em;
+}
