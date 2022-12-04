@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+input {
+  background-image: url("images/glass.png");
+  background-repeat: no-repeat;
+  background-position: 160px;
+  padding: 5px;
+}
+
+.strip {
+  height: 300px;
+  background: url("images/strip.png") no-repeat center center/cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  font-size: 25px;
+}
+
+.contain_cards {
+  display: flex;
+  background-color: silver;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 5px;
+  width: 15%;
+  background-color: white;
+}
+.card h3 {
+  color: white;
+  background-color: skyblue;
+  margin: 0;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(44, 12, 75);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.contain_details {
+  display: flex;
+  min-width: 50%;
+  margin-right: 100px;
+}
+
+.details {
+  color: white;
+  padding: 20px;
+}
+
+.details h4 {
+  background-color: gray;
+  padding: 10px 150px 10px 10px;
+}
