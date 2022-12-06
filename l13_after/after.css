@@ -1,0 +1,35 @@
+header nav {
+  display: flex;
+}
+
+header nav a,
+article a {
+  color: black;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+header nav a::after {
+  content: "";
+  background: orange;
+  height: 4px;
+  display: block;
+  width: 0%;
+  margin: 0 auto;
+  transition: 1000ms;
+}
+
+header nav a:hover::after {
+  width: 100%;
+  background: blue;
+}
+
+header article a::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-image: url(right-arrow.png);
+  background-size: cover;
+  margin-right: 4px;
+}
