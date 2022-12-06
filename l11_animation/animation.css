@@ -1,0 +1,43 @@
+body {
+  background: silver;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+h1 {
+  transition: 800ms;
+}
+
+h1:hover {
+  color: red;
+}
+
+.pic1 {
+  filter: grayscale(100%) blur(5px);
+  transition: 1000ms;
+}
+
+.pic1:hover {
+  filter: grayscale(0%) blur(0);
+  transform: rotate(180deg);
+}
+
+.pic2 {
+  transition: 2000ms;
+}
+
+.pic2:hover {
+  transform: scale(1.5, 1.5);
+  /* transform: rotate(45deg); */
+  /* transform: translate(40px, 80px) rotate(90deg); */
+  /* width: 500px;
+  height: 400px; */
+}
